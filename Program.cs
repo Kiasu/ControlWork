@@ -24,5 +24,6 @@ void Formation(string[] arr)
         {
             arr[i] = element;
         }
+        else arr[i] = string.Empty;
     }
 }
