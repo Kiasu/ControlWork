@@ -14,3 +14,15 @@ void PrintArray(string[] arr)
     }
     Console.WriteLine();
 }
+
+void Formation(string[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        string element = arr[i];
+        if (element.Length <= 3)
+        {
+            arr[i] = element;
+        }
+    }
+}
