@@ -27,3 +27,8 @@ void Formation(string[] arr)
         else arr[i] = string.Empty;
     }
 }
+
+PrintArray(array);
+Formation(array);
+Console.Write("Итог: ");
+PrintArray(array);
